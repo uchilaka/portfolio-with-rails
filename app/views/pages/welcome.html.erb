@@ -10,16 +10,21 @@
   </nav>
 </header>
 <main>
+  <div class="inner">
   <!-- @TODO:  -->
-  <h1>My name is Uche, and I love to make things</h1>
-  <h3>I'm driven obsessively to tinker and learn new things. With all the great tech out there to help, the struggle to stay focused can be daunting - but all said, the payoff when I deliver something useful makes the journey (and required serial effort in focus) quite rewarding.</h3>
-  <button>View My Work</button>
+  <h1>My name is Uche,<br /> and I love to make things</h1>
+  <h3>I'm obsessively driven...</h3>
+  <p>...to tinker and learn new things. With all the great tech out there to help, the struggle to stay focused can be daunting - but all said, the payoff when I deliver something useful makes the journey (and required serial effort in focus) quite rewarding.</p>
+  <button>View My Work</button>    
+  </div>
 </main>
 <footer>
   <section>
-    <ul>
-      <li><a href="">Twitter</a></li>
-      <li><a href="">Github</a></li>
+    <ul class="social-links" role="navigation">
+      <li><a href=""><i class="fab fa-github"></i></a></li>
+      <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+      <li><a href=""><i class="fab fa-twitter"></i></a></li>
     </ul>
+    &copy;<span><%= current_year ||= '2020' %></span> Uche Chilaka
   </section>
 </footer>
