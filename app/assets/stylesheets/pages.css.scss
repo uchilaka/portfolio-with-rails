@@ -21,7 +21,7 @@ body {
       justify-content: space-between;
       align-items: center;
       padding-right: 1.5rem;
-      background-color: pink;
+      border-bottom: 1px solid #e8e8e8;
       
       ul {
         display: flex;
@@ -46,10 +46,13 @@ body {
           
           &> a {
             box-sizing: border-box;
+            font-weight: bold;
+            color: #2a2a2a;
             padding: 1rem;
             
             &:hover {
-              background-color: yellow;
+              color: #2a2a2a;
+              text-decoration: underline;
             }
           }
         }
